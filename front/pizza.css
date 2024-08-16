@@ -1,0 +1,60 @@
+@import url(style.css);
+
+.pizza {
+  width: 300px;
+  height: 450px;
+  background: black;
+  border-radius: 15px;
+}
+
+.pizzas-prod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  gap: 50px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image img {
+  height: 250px;
+  width: 250px;
+}
+
+.pizza-texto {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pizza-texto h3 {
+  font-size: 1.7rem;
+}
+
+.pizza-texto div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.pizza-texto div i {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  color: black;
+}

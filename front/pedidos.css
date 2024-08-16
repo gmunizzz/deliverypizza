@@ -1,0 +1,128 @@
+@import url(style.css);
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.pizza {
+  width: 300px;
+  height: 450px;
+  background: black;
+  border-radius: 15px;
+}
+
+.pizzas-prod {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 600px;
+  gap: 50px;
+  margin-left: 100px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image img {
+  height: 250px;
+  width: 250px;
+}
+
+.pizza-texto {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pizza-texto h3 {
+  font-size: 1.7rem;
+}
+
+.pizza-texto div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.pizza-texto div i {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  color: black;
+}
+
+.endereco {
+  width: 800px;
+  height: 50px;
+  background: black;
+  margin-top: 70px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.endereco p {
+  margin: 20px;
+  font-size: 1.4rem;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  gap: 20px;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 50px;
+}
+
+.item input {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+}
+
+.mais {
+  display: flex;
+  gap: 20px;
+}
+
+.mais i {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+}

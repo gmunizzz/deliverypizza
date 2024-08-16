@@ -1,0 +1,66 @@
+@import url(style.css);
+
+.massa {
+  width: 300px;
+  height: 450px;
+  background: black;
+  border-radius: 15px;
+}
+
+.massas-prod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  gap: 50px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fusilli img {
+  height: 250px;
+  width: 250px;
+}
+
+.penne img {
+  height: 180px;
+  width: auto;
+  margin-bottom: 65px;
+}
+
+.massa-texto {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.massa-texto h3 {
+  font-size: 1.7rem;
+}
+
+.massa-texto div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.massa-texto div i {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+  color: black;
+}
